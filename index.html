@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="description" content="Le Faisceau — un outil Révéla, par DSP Avocats. Les pièces à réunir selon votre litige, ce que vous avez déjà, ce qui manque, et comment le combler. Une jauge pour voir où en est votre dossier." />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#F7F3EA" />
+<title>Le Faisceau — les pièces à réunir · un outil Révéla</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Cpolyline points='13.00,13.00%2013.01,12.93%2013.04,12.86%2013.09,12.80%2013.15,12.76%2013.23,12.73%2013.32,12.71%2013.42,12.72%2013.52,12.76%2013.62,12.81%2013.71,12.89%2013.79,12.99%2013.86,13.11%2013.90,13.25%2013.92,13.40%2013.92,13.56%2013.89,13.73%2013.82,13.90%2013.73,14.07%2013.60,14.23%2013.44,14.37%2013.26,14.49%2013.05,14.58%2012.82,14.64%2012.57,14.67%2012.31,14.66%2012.05,14.61%2011.79,14.51%2011.53,14.38%2011.29,14.20%2011.08,13.98%2010.89,13.72%2010.74,13.43%2010.63,13.11%2010.57,12.77%2010.55,12.41%2010.59,12.05%2010.69,11.68%2010.84,11.33%2011.05,10.99%2011.31,10.67%2011.62,10.40%2011.98,10.16%2012.37,9.97%2012.80,9.84%2013.25,9.78%2013.72,9.77%2014.19,9.84%2014.66,9.98%2015.11,10.18%2015.54,10.46%2015.93,10.80%2016.28,11.20%2016.56,11.65%2016.79,12.15%2016.94,12.69%2017.02,13.25%2017.01,13.83%2016.92,14.41%2016.75,14.98%2016.49,15.53%2016.15,16.05%2015.73,16.52%2015.24,16.93%2014.69,17.28%2014.09,17.54%2013.45,17.72%2012.77,17.81%2012.08,17.80%2011.39,17.69%2010.72,17.48%2010.07,17.18%209.46,16.77%208.91,16.28%208.42,15.71%208.02,15.06%207.71,14.36%207.50,13.61%207.40,12.82%207.41,12.02%207.53,11.22%207.77,10.44%208.13,9.69%208.59,8.99%209.15,8.35%209.81,7.79%2010.55,7.33%2011.35,6.97%2012.21,6.72%2013.10,6.60%2014.01,6.61%2014.92,6.75%2015.82,7.02%2016.67,7.41%2017.47,7.93%2018.19,8.57%2018.83,9.30%2019.35,10.13%2019.76,11.03%2020.04,12.00%2020.19,13.00%2020.19,14.02%2020.04,15.05%2019.75,16.05%2019.31,17.01%2018.74,17.90%2018.04,18.71%2017.22,19.43%2016.31,20.02%2015.30,20.49%2014.24,20.81%2013.13,20.98%2011.99,20.99%2010.86,20.83%209.75,20.52%208.68,20.05%207.69,19.42%206.78,18.66%205.99,17.77%205.32,16.76%204.80,15.67%204.43,14.50%204.24,13.28%204.21,12.03%204.37,10.78%204.70,9.56%205.20,8.39%205.88,7.29%206.70,6.29%207.67,5.41%208.76,4.67%209.95,4.09%2011.22,3.68%2012.55,3.45%2013.91,3.41%2015.27,3.56%2016.60,3.91%2017.88,4.45%2019.08,5.16%2020.17,6.05%2021.14,7.09%2021.96,8.26%2022.60,9.54%2023.06,10.92%2023.33,12.35%2023.39,13.82%2023.24,15.29%2022.88,16.73%2022.32,18.12%2021.56,19.43%2020.62,20.62%2019.52,21.68%2018.26,22.57%2016.89,23.29%2015.41,23.80%2013.87,24.11%2012.30,24.19%2010.71,24.05%209.15,23.68%207.65,23.10%206.24,22.30' fill='none' stroke='%23B9924C' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+<style>
+:root { --paper:#F7F3EA; --sheet:#FBF8F1; --navy:#1B2A4A; --ink:#22283A; --gold:#B9924C; --gold-soft:#D8BC85; --line:#E3DACA; --muted:#6E6A5E;
+  --ok:#7FA36C; --mid:#C99A45; --hot:#C2584C;
+  --serif:"Cormorant Garamond", Garamond, "Times New Roman", serif; --sans:"DM Sans","Helvetica Neue",Arial,sans-serif;
+  color-scheme: light; }
+*,*::before,*::after { box-sizing:border-box; }
+html { -webkit-text-size-adjust:100%; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+a { color:inherit; }
+button, input, select { font:inherit; color:inherit; }
+button { cursor:pointer; }
+[hidden] { display:none !important; }
+:focus-visible { outline:2px solid var(--gold); outline-offset:3px; }
+.app { max-width:680px; margin:0 auto; padding:0 20px; min-height:100vh; display:flex; flex-direction:column; }
+header.top { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:18px 0; border-bottom:1px solid var(--line); }
+.brand { display:inline-flex; align-items:center; gap:9px; color:var(--navy); text-decoration:none; }
+.brand svg { color:var(--gold); flex:none; }
+.brand span { font-family:var(--serif); font-size:22px; font-weight:600; letter-spacing:.08em; }
+nav.tabs { display:flex; gap:4px; }
+nav.tabs button { border:none; background:none; font-size:13.5px; color:var(--muted); padding:6px 8px; border-radius:8px; }
+nav.tabs button[aria-current="true"] { color:var(--navy); background:rgba(27,42,74,.07); font-weight:600; }
+main { flex:1; padding:28px 0 12px; }
+.screen { display:none; }
+.screen.on { display:block; animation:in .35s ease both; }
+@keyframes in { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+@media (prefers-reduced-motion: reduce) { .screen.on { animation:none; } }
+.kicker { font-size:12.5px; font-weight:600; color:var(--gold); letter-spacing:.06em; text-transform:uppercase; margin:0 0 10px; }
+h1 { font-family:var(--serif); font-weight:500; color:var(--navy); font-size:clamp(40px,9vw,58px); line-height:1.02; margin:0 0 18px; letter-spacing:-.01em; }
+h1 em { font-style:italic; font-weight:400; color:var(--gold); }
+h2 { font-family:var(--serif); font-weight:600; color:var(--navy); font-size:clamp(27px,6vw,34px); line-height:1.12; margin:0 0 10px; }
+h3 { font-family:var(--serif); font-weight:600; color:var(--navy); font-size:22px; line-height:1.2; margin:0 0 6px; }
+.lede { font-family:var(--serif); font-size:clamp(20px,4.6vw,23px); line-height:1.45; margin:0 0 22px; }
+.muted { color:var(--muted); }
+.small { font-size:14px; }
+p { margin:0 0 14px; }
+.btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; border:1px solid var(--navy); background:transparent; border-radius:999px; padding:13px 24px; font-size:15.5px; font-weight:500; text-decoration:none; color:var(--navy); min-height:48px; }
+.btn.main { background:var(--navy); color:var(--sheet); }
+.btn.main:hover { background:#2A3D63; }
+.btn.main:disabled { background:#A7ADBA; border-color:#A7ADBA; cursor:not-allowed; }
+.btn.ghost:hover { background:rgba(27,42,74,.06); }
+.btn.sm { padding:8px 14px; min-height:36px; font-size:14px; }
+.btn.link { border:none; padding:8px 0; min-height:0; color:var(--muted); text-decoration:underline; text-underline-offset:3px; background:none; }
+.row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.panel { background:var(--sheet); border:1px solid var(--line); border-radius:16px; padding:20px; margin:0 0 16px; }
+.duo { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:22px 0 24px; }
+@media (max-width:560px) { .duo { grid-template-columns:1fr; } }
+.duo .panel { margin:0; }
+.duo h3 { font-size:20px; }
+.duo p { font-size:15px; margin:0; }
+.tag { display:inline-block; font-size:12.5px; font-weight:600; border-radius:999px; padding:3px 11px; color:#fff; background:var(--c,var(--navy)); }
+.tag.legal { --c:var(--navy); } .tag.lettre { --c:var(--gold); }
+
+/* Choix */
+.choices { display:grid; gap:10px; margin:0 0 20px; }
+.choice { display:block; width:100%; text-align:left; border:1px solid var(--line); background:var(--sheet); border-radius:14px; padding:16px 18px; min-height:58px; }
+.choice:hover { border-color:var(--gold); }
+.choice strong { display:block; font-weight:600; font-size:16.5px; color:var(--navy); }
+.choice span { display:block; font-size:14px; color:var(--muted); margin-top:2px; }
+.step-q { font-family:var(--serif); font-size:clamp(25px,5.8vw,31px); line-height:1.2; color:var(--navy); margin:0 0 18px; }
+
+/* Formulaire */
+label.f { display:block; margin:0 0 16px; }
+label.f > span { display:block; font-size:14.5px; font-weight:500; color:var(--navy); margin-bottom:5px; }
+label.f small { display:block; font-size:13px; color:var(--muted); margin-top:4px; }
+input[type=text], input[type=date], input[type=number], select { width:100%; border:1px solid var(--line); background:#fff; border-radius:10px; padding:11px 12px; font-size:16px; }
+input:focus, select:focus { outline:2px solid var(--gold-soft); border-color:var(--gold); }
+.dur { display:grid; grid-template-columns:110px 1fr; gap:10px; }
+.check { display:flex; gap:10px; align-items:flex-start; font-size:15px; margin:0 0 14px; cursor:pointer; }
+.check input { width:20px; height:20px; margin-top:2px; accent-color:var(--navy); flex:none; }
+.note { border-left:3px solid var(--gold); padding:4px 0 4px 14px; margin:0 0 18px; font-size:15px; }
+.note.hot { border-color:var(--hot); }
+
+/* Résultat du calcul */
+.result { border-radius:18px; padding:22px; margin:6px 0 18px; background:var(--navy); color:#F7F3EA; }
+.result .kicker { color:var(--gold-soft); margin-bottom:4px; }
+.result .big { font-family:var(--serif); font-size:clamp(30px,7vw,40px); line-height:1.1; font-weight:600; margin:0 0 6px; }
+.result .left { font-size:15px; color:#D3D7E0; margin:0; }
+.result .left strong { color:#fff; }
+.result.past { background:#6A2018; }
+.steps { list-style:none; padding:0; margin:0; counter-reset:s; }
+.steps li { counter-increment:s; position:relative; padding:0 0 12px 34px; font-size:15px; }
+.steps li::before { content:counter(s); position:absolute; left:0; top:0; width:24px; height:24px; border-radius:50%; border:1.5px solid var(--gold); color:var(--gold); font-size:13px; font-weight:600; display:flex; align-items:center; justify-content:center; }
+.steps li a { font-size:13px; color:var(--navy); }
+.safety { background:#FFF7E6; border:1px solid var(--gold-soft); border-radius:14px; padding:14px 16px; font-size:15px; margin:0 0 18px; }
+
+/* Relevé */
+.item { display:grid; grid-template-columns:auto 1fr; gap:4px 16px; align-items:start; background:#fff; border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:0 0 12px; }
+.item .cd { grid-row:span 3; text-align:center; min-width:74px; border-radius:12px; padding:8px 6px; background:var(--c); color:#fff; }
+.item .cd strong { display:block; font-family:var(--serif); font-size:30px; line-height:1; }
+.item .cd span { font-size:11.5px; }
+.item h3 { font-size:20px; margin:0; }
+.item .when { font-size:14.5px; margin:0; }
+.item .acts { display:flex; gap:12px; flex-wrap:wrap; }
+.empty { text-align:center; color:var(--muted); padding:30px 10px; }
+
+/* Repères */
+table.ref { width:100%; border-collapse:collapse; font-size:15px; margin:0 0 6px; }
+table.ref th { text-align:left; font-size:12.5px; color:var(--muted); font-weight:600; border-bottom:1px solid var(--line); padding:8px 8px 8px 0; }
+table.ref td { border-bottom:1px solid var(--line); padding:10px 8px 10px 0; vertical-align:top; }
+table.ref td.d { font-weight:600; color:var(--navy); white-space:nowrap; }
+table.ref a { font-size:13px; color:var(--navy); }
+@media (max-width:520px) { table.ref, table.ref tbody, table.ref tr, table.ref td { display:block; } table.ref thead { display:none; } table.ref tr { border-bottom:1px solid var(--line); padding:10px 0; } table.ref td { border:none; padding:2px 0; } }
+
+.cta { background:var(--navy); color:#F7F3EA; border-radius:18px; padding:24px 22px; margin:26px 0 16px; }
+.cta h3 { color:#F7F3EA; }
+.cta p { color:#D3D7E0; font-size:15px; }
+.cta .btn { background:var(--gold); border-color:var(--gold); color:var(--navy); font-weight:600; }
+.warn { font-size:13.5px; color:var(--muted); border-top:1px solid var(--line); padding-top:14px; margin-top:20px; }
+.next-links a { font-weight:600; color:var(--navy); }
+footer.foot { border-top:1px solid var(--line); padding:22px 0 34px; font-size:13.5px; color:var(--muted); }
+footer.foot .sig { font-family:var(--serif); font-style:italic; font-size:19px; color:var(--navy); margin:0 0 8px; }
+footer.foot p { margin:0 0 6px; }
+details.mentions { margin-top:10px; }
+details.mentions summary { cursor:pointer; color:var(--navy); font-weight:500; }
+details.mentions h4 { font-family:var(--serif); font-size:18px; color:var(--navy); margin:16px 0 4px; }
+details.mentions p { font-size:13.5px; }
+.print-only { display:none; }
+@media print {
+  @page { margin:16mm 14mm; }
+  body { background:#fff; font-size:11.5pt; }
+  .no-print, header.top, details.mentions, .item .acts { display:none !important; }
+  .print-only { display:block; }
+  .app { max-width:none; padding:0; }
+  .screen { display:none !important; }
+  .screen.on { display:block !important; animation:none; }
+  .item, .panel { break-inside:avoid; }
+  .item .cd, .result { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+}
+.skip{position:absolute;left:-9999px;top:8px;z-index:30;background:var(--navy);color:#fff;padding:8px 16px;border-radius:999px;font-size:14px;text-decoration:none}.skip:focus{left:12px}
+
+/* Spécifique au Faisceau */
+.types { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:0 0 20px; }
+@media (max-width:560px) { .types { grid-template-columns:1fr; } }
+.type { text-align:left; border:1px solid var(--line); background:var(--sheet); border-radius:14px; padding:14px 16px; }
+.type:hover { border-color:var(--gold); }
+.type strong { display:block; color:var(--navy); font-size:16px; }
+.type span { font-size:13.5px; color:var(--muted); }
+.gauge { background:var(--navy); color:#F7F3EA; border-radius:18px; padding:20px 22px; margin:0 0 16px;  }
+.gauge .top2 { display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap; }
+.gauge strong { font-family:var(--serif); font-size:34px; line-height:1; }
+.gauge .lvl { font-size:14px; color:var(--gold-soft); font-weight:600; }
+.gauge .track { height:10px; border-radius:6px; background:rgba(255,255,255,.15); overflow:hidden; margin:12px 0 8px; }
+.gauge .track i { display:block; height:100%; border-radius:6px; background:var(--gold); transition:width .35s; }
+.gauge p { margin:0; font-size:13.5px; color:#C9CDD8; }
+.sec { margin:22px 0 8px; font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--gold); }
+.pc { background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px 16px; margin:0 0 10px; }
+.pc.ok { border-color:#BFD5B3; background:#F7FBF4; }
+.pc.miss { border-color:#E7B7AF; }
+.pc .h { display:flex; justify-content:space-between; gap:10px; align-items:flex-start; }
+.pc h3 { font-family:var(--sans); font-size:15.5px; font-weight:600; color:var(--navy); margin:0; line-height:1.35; }
+.w { flex:none; font-size:11.5px; font-weight:600; border-radius:999px; padding:2px 9px; }
+.w2 { background:var(--navy); color:#fff; } .w1 { background:#EFE8DA; color:var(--navy); }
+.pc details { margin-top:6px; font-size:14px; color:var(--muted); }
+.pc details summary { cursor:pointer; color:var(--navy); font-size:13.5px; }
+.pc details p { margin:6px 0 0; }
+.st { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.st button { border:1px solid var(--line); background:var(--sheet); border-radius:999px; padding:6px 12px; font-size:13.5px; min-height:36px; }
+.st button[aria-pressed="true"][data-v="j"] { background:#7FA36C; border-color:#7FA36C; color:#fff; }
+.st button[aria-pressed="true"][data-v="o"] { background:var(--gold); border-color:var(--gold); color:#fff; }
+.st button[aria-pressed="true"][data-v="x"] { background:#C2584C; border-color:#C2584C; color:#fff; }
+.src { font-size:12.5px; color:#3F6431; margin-top:6px; }
+.imp { background:#F2F7EF; border:1px dashed #A9C59B; border-radius:12px; padding:12px 14px; font-size:14px; color:#3F6431; margin:0 0 16px; }
+.law { border-top:1px solid var(--line); padding:12px 0; }
+.law:first-child { border-top:none; padding-top:0; }
+.law p { margin:0 0 4px; font-size:15px; }
+.law a { font-size:13.5px; color:var(--navy); }
+.qlist { margin:0; padding-left:20px; }
+.qlist li { margin-bottom:8px; }
+.toast { position:fixed; left:50%; bottom:24px; transform:translateX(-50%); background:var(--navy); color:#fff; padding:10px 18px; border-radius:999px; font-size:14px; z-index:9; }
+@media print { .gauge { position:static; -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<div class="app">
+<header class="top">
+  <a class="brand" href="https://dsp-avocats.fr/" aria-label="Révéla, par DSP Avocats"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><polyline points="13.00,13.00 13.01,12.93 13.04,12.86 13.09,12.80 13.15,12.76 13.23,12.73 13.32,12.71 13.42,12.72 13.52,12.76 13.62,12.81 13.71,12.89 13.79,12.99 13.86,13.11 13.90,13.25 13.92,13.40 13.92,13.56 13.89,13.73 13.82,13.90 13.73,14.07 13.60,14.23 13.44,14.37 13.26,14.49 13.05,14.58 12.82,14.64 12.57,14.67 12.31,14.66 12.05,14.61 11.79,14.51 11.53,14.38 11.29,14.20 11.08,13.98 10.89,13.72 10.74,13.43 10.63,13.11 10.57,12.77 10.55,12.41 10.59,12.05 10.69,11.68 10.84,11.33 11.05,10.99 11.31,10.67 11.62,10.40 11.98,10.16 12.37,9.97 12.80,9.84 13.25,9.78 13.72,9.77 14.19,9.84 14.66,9.98 15.11,10.18 15.54,10.46 15.93,10.80 16.28,11.20 16.56,11.65 16.79,12.15 16.94,12.69 17.02,13.25 17.01,13.83 16.92,14.41 16.75,14.98 16.49,15.53 16.15,16.05 15.73,16.52 15.24,16.93 14.69,17.28 14.09,17.54 13.45,17.72 12.77,17.81 12.08,17.80 11.39,17.69 10.72,17.48 10.07,17.18 9.46,16.77 8.91,16.28 8.42,15.71 8.02,15.06 7.71,14.36 7.50,13.61 7.40,12.82 7.41,12.02 7.53,11.22 7.77,10.44 8.13,9.69 8.59,8.99 9.15,8.35 9.81,7.79 10.55,7.33 11.35,6.97 12.21,6.72 13.10,6.60 14.01,6.61 14.92,6.75 15.82,7.02 16.67,7.41 17.47,7.93 18.19,8.57 18.83,9.30 19.35,10.13 19.76,11.03 20.04,12.00 20.19,13.00 20.19,14.02 20.04,15.05 19.75,16.05 19.31,17.01 18.74,17.90 18.04,18.71 17.22,19.43 16.31,20.02 15.30,20.49 14.24,20.81 13.13,20.98 11.99,20.99 10.86,20.83 9.75,20.52 8.68,20.05 7.69,19.42 6.78,18.66 5.99,17.77 5.32,16.76 4.80,15.67 4.43,14.50 4.24,13.28 4.21,12.03 4.37,10.78 4.70,9.56 5.20,8.39 5.88,7.29 6.70,6.29 7.67,5.41 8.76,4.67 9.95,4.09 11.22,3.68 12.55,3.45 13.91,3.41 15.27,3.56 16.60,3.91 17.88,4.45 19.08,5.16 20.17,6.05 21.14,7.09 21.96,8.26 22.60,9.54 23.06,10.92 23.33,12.35 23.39,13.82 23.24,15.29 22.88,16.73 22.32,18.12 21.56,19.43 20.62,20.62 19.52,21.68 18.26,22.57 16.89,23.29 15.41,23.80 13.87,24.11 12.30,24.19 10.71,24.05 9.15,23.68 7.65,23.10 6.24,22.30" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg><span>Révéla</span></a>
+  <span class="small muted">Le Faisceau</span>
+</header>
+
+<main id="main">
+<!-- Accueil -->
+<section class="screen on" id="s-intro" aria-labelledby="t-intro">
+  <p class="kicker">Un outil Révéla · Se préparer</p>
+  <h1 id="t-intro">Le Faisceau<br><em>les pièces à réunir</em></h1>
+  <p class="lede">Une pièce seule prouve rarement tout. Un faisceau de pièces qui se recoupent, si. Avoir raison ne suffit pas : il faut pouvoir le montrer.</p>
+  <p class="muted">Choisissez votre type de litige. Le Faisceau liste les pièces utiles, essentielles ou complémentaires, vous dit où les trouver et comment combler un manque. Une jauge mesure la solidité de votre dossier. Si vous avez fait votre trame, importez-la : vos pièces seront rattachées automatiquement.</p>
+  <div class="row"><button class="btn main" id="btn-start">Choisir mon type de litige</button><button class="btn ghost" id="btn-import0">Importer ma trame</button><button class="btn link" id="btn-resume" hidden>Reprendre mon dossier</button></div>
+  <input type="file" id="file" aria-label="Fichier de La Trame à importer" accept=".json,application/json" hidden />
+  <p class="small muted" style="margin-top:22px">Votre dossier reste sur cet appareil. Le Faisceau vous aide à rassembler des documents ; il ne juge pas de leur valeur de preuve, qui relève du juge et de l’analyse d’un avocat.</p>
+</section>
+
+<!-- Type -->
+<section class="screen" id="s-type" aria-labelledby="t-type">
+  <p class="kicker">Votre litige</p>
+  <h2 id="t-type">De quel type de litige s’agit-il ?</h2>
+  <div class="imp" id="imp-note" hidden></div>
+  <div class="types" id="types"></div>
+  <div class="row"><button class="btn link" id="type-back">Retour</button></div>
+</section>
+
+<!-- Liste -->
+<section class="screen" id="s-list">
+  <p class="kicker" id="list-kicker"></p>
+  <h2 id="list-title">Les pièces de mon dossier</h2>
+  <div class="gauge" id="gauge"></div>
+  <div class="imp" id="imp-res" hidden></div>
+  <p class="small muted">Pour chaque pièce, indiquez si vous l’avez. « Essentielle » : sans elle, le dossier est fragile. « Utile » : elle renforce le faisceau.</p>
+  <div id="items"></div>
+  <div class="row" style="margin-top:20px"><button class="btn main" id="btn-sheet">Voir mon dossier</button><button class="btn ghost" id="btn-import">Importer ma trame</button><button class="btn link" id="btn-type">Changer de type de litige</button></div>
+</section>
+
+<!-- Dossier -->
+<section class="screen" id="s-sheet" aria-labelledby="t-sheet">
+  <div class="print-only"><p class="kicker">Révéla · Le Faisceau</p></div>
+  <p class="kicker no-print">Mon dossier</p>
+  <h2 id="t-sheet"></h2>
+  <p class="small muted" id="sh-date"></p>
+  <div class="gauge" id="sh-gauge"></div>
+  <div class="panel" id="sh-ok-w"><h3 style="font-size:20px">Ce que j’ai</h3><ul class="qlist" id="sh-ok"></ul></div>
+  <div class="panel" id="sh-todo-w"><h3 style="font-size:20px">Ce que je dois obtenir</h3><ul class="qlist" id="sh-todo"></ul></div>
+  <div class="panel" id="sh-x-w"><h3 style="font-size:20px">Ce que je ne pourrai pas obtenir, et comment y suppléer</h3><ul class="qlist" id="sh-x"></ul></div>
+  <div class="panel" id="sh-nr-w"><h3 style="font-size:20px">À vérifier</h3><ul class="qlist" id="sh-nr"></ul></div>
+  <div class="panel"><h3 style="font-size:20px">Cinq règles pour des pièces utiles</h3><ol class="qlist">
+    <li>Gardez les originaux ; communiquez des copies lisibles.</li>
+    <li>Numérotez chaque pièce et nommez-la : « 3 – 18 septembre 2026 – SMS de l’artisan ».</li>
+    <li>Pour un message ou une page web, faites apparaître la date, l’expéditeur et le numéro ou l’adresse.</li>
+    <li>Une pièce par fait important ; plusieurs pièces qui se recoupent valent mieux qu’une seule.</li>
+    <li>Ne modifiez jamais une pièce, même pour la rendre plus claire : ajoutez plutôt une note à part.</li></ol></div>
+  <div class="panel"><h3 style="font-size:20px">Ce que dit la loi</h3><div id="sh-law"></div></div>
+  <p class="next-links small" id="sh-links"></p>
+  <div class="cta no-print">
+    <h3>Un dossier prêt à être examiné</h3>
+    <p>Avec votre trame et vos pièces, un premier rendez-vous va droit à l’essentiel. Le bilan amiable gratuit commence par là.</p>
+    <a class="btn" href="mailto:contact@dsp-avocats.fr?subject=Bilan%20amiable%20gratuit%20%E2%80%94%20Le%20Faisceau">Demander mon bilan amiable gratuit</a>
+  </div>
+  <div class="row no-print"><button class="btn main" id="btn-print">Imprimer ou enregistrer en PDF</button><button class="btn link" id="btn-back">Revenir à mes pièces</button></div>
+  <p class="warn">La jauge mesure la présence des pièces que vous déclarez, pas leur force probante. Le Faisceau ne se prononce ni sur la recevabilité d’une preuve, ni sur vos droits.</p>
+</section>
+</main>
+
+<footer class="foot">
+  <p class="sig">Le droit existe lorsqu’on le révèle.</p>
+  <p>Révéla, par SELARL DSP Avocats, société d’avocats inscrite au Barreau de Nice. 8 bis rue Andrioli, Le Capitole V, 06000 Nice. <a href="mailto:contact@dsp-avocats.fr">contact@dsp-avocats.fr</a></p>
+  <p class="no-print"><button class="btn link" id="btn-erase" style="font-size:13.5px">Effacer mes données de cet appareil</button></p>
+  <details class="mentions" id="mentions-legales">
+    <summary>Mentions légales et confidentialité</summary>
+    <h4>Éditeur</h4>
+    <p>Le Faisceau est édité par la SELARL DSP Avocats, société d’avocats inscrite au Barreau de Nice, au capital de 402 euros, SIREN 978 376 234. Siège : 8 bis rue Andrioli, Le Capitole V, 06000 Nice. Téléphone : 04 93 97 66 66. Courriel : contact@dsp-avocats.fr.</p>
+    <h4>Directeur de la publication</h4>
+    <p>SELARL DSP Avocats, représentée par ses cogérants, Lucas Panicucci et Claire Delmasse Simoni.</p>
+    <h4>Hébergement</h4>
+    <p>Vercel Inc., 440 North Barranca Avenue, Suite 4133, Covina, Californie 91723, États-Unis. vercel.com.</p>
+    <h4>Confidentialité</h4>
+    <p>Le Faisceau fonctionne entièrement dans votre navigateur. Votre dossier, y compris la trame que vous importez, est enregistré uniquement dans le stockage local de votre appareil. Aucun document n’est téléversé ni transmis au cabinet. Le site n’utilise ni cookie publicitaire ni outil de mesure d’audience. Le bouton « Effacer mes données » supprime tout.</p>
+    <p>Si vous écrivez au cabinet, les informations que vous transmettez sont traitées par la SELARL DSP Avocats pour répondre à votre demande. Elles sont couvertes par le secret professionnel de l’avocat. Vous pouvez demander à tout moment l’accès à vos données, leur rectification ou leur suppression, à contact@dsp-avocats.fr.</p>
+    <h4>Nature de l’outil</h4>
+    <p>Le Faisceau est un outil d’organisation. Les listes de pièces sont indicatives et ne sont pas exhaustives. L’outil ne constitue pas une consultation juridique et ne remplace pas l’analyse personnalisée d’un avocat.</p>
+    <h4>Propriété intellectuelle</h4>
+    <p>Les textes, visuels et outils du site sont la propriété de la SELARL DSP Avocats. Toute reproduction sans autorisation est interdite.</p>
+  </details>
+</footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var LIENS = { trame: "", sceau: "", temoin: "", preambule: "" };   /* à renseigner au fil des mises en ligne */
+  var KEY = "revela-faisceau-v1";
+  function L(id) { return "https://www.legifrance.gouv.fr/codes/article_lc/" + id; }
+  var LAW = [
+    ["Article 9 du Code de procédure civile", L("LEGIARTI000006410102"), "Il incombe à chaque partie de prouver les faits nécessaires au succès de sa prétention."],
+    ["Article 1353 du Code civil", L("LEGIARTI000032042341"), "Celui qui réclame l’exécution d’une obligation doit la prouver ; celui qui se prétend libéré doit justifier le paiement."],
+    ["Article 1358 du Code civil", L("LEGIARTI000032042316"), "Hors les cas où la loi en dispose autrement, la preuve peut être apportée par tout moyen : courriels, photos, témoignages…"],
+    ["Article 1359 du Code civil et décret n° 80-533 du 15 juillet 1980", L("LEGIARTI000032042311"), "Un acte juridique portant sur une somme ou une valeur de plus de 1 500 € doit en principe être prouvé par un écrit signé. D’où l’importance du devis signé ou de la reconnaissance de dette."],
+    ["Article 1360 du Code civil", L("LEGIARTI000032042306"), "Cette exigence d’un écrit reçoit exception en cas d’impossibilité matérielle ou morale de se procurer un écrit, s’il est d’usage de ne pas en établir, ou si l’écrit a été perdu par force majeure."],
+    ["Article 202 du Code de procédure civile", L("LEGIARTI000006410330"), "Une attestation de témoin relate des faits que son auteur a vus ou constatés lui-même, avec les mentions requises, et elle est accompagnée d’une pièce d’identité."]
+  ];
+
+  /* Pièces communes à tous les litiges */
+  var COMMON_START = { s: "Qui est l’autre partie", items: [
+    { id: "ident", t: "Ses coordonnées exactes : nom ou dénomination, adresse, et numéro SIREN pour un professionnel", w: 2, kw: /siren|siret|kbis|coordonn/i,
+      where: "Sur le devis, la facture ou le contrat. Pour une entreprise, l’Annuaire des entreprises de l’État (annuaire-entreprises.data.gouv.fr) donne la dénomination et le siège.", alt: "Sans adresse exacte, aucun acte ne pourra être délivré : c’est la première chose à sécuriser." } ] };
+  var COMMON_END = [
+    { s: "Les échanges", items: [
+      { id: "msgs", t: "Les messages échangés : courriels, SMS, messageries, courriers", w: 2, kw: /sms|courriel|e-?mail|mail|message|whatsapp|capture|courrier|lettre(?! recommand)/i,
+        where: "Dans votre téléphone et votre messagerie. Faites des captures où l’on voit la date, l’expéditeur et le numéro ou l’adresse.", alt: "Si les échanges étaient oraux, écrivez un courrier récapitulatif à l’autre partie : sa réponse, ou son silence, sera daté." },
+      { id: "md", t: "Les mises en demeure, relances et réponses, avec les preuves d’envoi", w: 1, kw: /mise en demeure|recommand|relance|accus|avis de r/i,
+        where: "Gardez les avis de réception et les preuves de dépôt avec chaque lettre.", alt: "Une relance par courriel avec accusé de lecture garde une trace, à défaut de recommandé." } ] },
+    { s: "Ce que cela vous coûte", items: [
+      { id: "prej", t: "Le chiffrage de votre préjudice : devis de reprise ou de réparation, factures de frais engagés", w: 1, kw: /devis de reprise|r[ée]paration|frais|facture de/i,
+        where: "Demandez un ou deux devis à d’autres professionnels ; conservez les factures des dépenses imprévues.", alt: "À défaut, listez précisément vos dépenses avec leurs dates : c’est déjà un début de chiffrage." } ] }
+  ];
+
+  var TYPES = {
+    travaux: { nom: "Travaux et artisans", d: "Chantier arrêté, malfaçons, retard, dépassement de prix", secs: [
+      { s: "Ce qui fonde la relation", items: [
+        { id: "devis", t: "Le devis signé, ou le contrat de travaux", w: 2, kw: /devis(?! de reprise)|contrat/i, where: "Votre exemplaire signé, ou le courriel par lequel vous l’avez accepté.", alt: "Sans devis signé, réunissez tout ce qui montre l’accord : courriels, acompte versé, début des travaux." },
+        { id: "aven", t: "Les modifications de commande et avenants", w: 1, kw: /avenant|modification/i, where: "Courriels ou documents validant un changement de prestation ou de prix.", alt: "Si les changements ont été décidés oralement, récapitulez-les par écrit à l’artisan." } ] },
+      { s: "Ce qui prouve les paiements", items: [
+        { id: "paie", t: "Les preuves de paiement : acomptes, virements, chèques", w: 2, kw: /virement|relev[ée]|acompte|paiement|ch[eè]que|re[çc]u/i, where: "Relevés bancaires, talons de chèque, reçus.", alt: "Votre banque peut fournir un duplicata de relevé." },
+        { id: "fact", t: "Les factures reçues", w: 1, kw: /facture(?! de)/i, where: "Courriels de l’entreprise, espace client.", alt: "Demandez-les par écrit à l’entreprise." } ] },
+      { s: "Ce qui prouve le problème", items: [
+        { id: "photos", t: "Les photos et vidéos datées de l’état du chantier", w: 2, kw: /photo|vid[ée]o/i, where: "Votre téléphone : les métadonnées gardent la date. Prenez des vues d’ensemble et de détail.", alt: "Si vous n’en avez pas, prenez-en aujourd’hui : elles montrent l’état actuel." },
+        { id: "temoins", t: "Les témoignages de personnes qui ont vu les faits", w: 1, kw: /attestation|t[ée]moin|voisin/i, where: "Voisins, proches, autres artisans présents sur place.", alt: "Une attestation conforme à l’article 202 du Code de procédure civile : c’est l’objet de l’outil Le Témoin." },
+        { id: "constat", t: "Un constat de commissaire de justice, ou un avis technique", w: 1, kw: /constat|expert|rapport/i, where: "Un commissaire de justice peut constater l’état des lieux ; un professionnel indépendant peut décrire les malfaçons. Ces interventions sont payantes.", alt: "À réserver aux enjeux qui le justifient : demandez d’abord un devis." },
+        { id: "mediat", t: "La saisine du médiateur de la consommation dont relève l’artisan, et sa réponse", w: 1, kw: /m[ée]diat/i, where: "Ses coordonnées figurent en principe sur le devis, les conditions générales ou le site de l’entreprise.", alt: "Si vous êtes un particulier, ce recours est gratuit (art. L. 612-1 du Code de la consommation)." },
+        { id: "assur", t: "L’attestation d’assurance de l’artisan", w: 1, kw: /assurance|d[ée]cennale/i, where: "Elle figure souvent sur le devis ou la facture ; sinon, demandez-la par écrit.", alt: "Utile si des malfaçons apparaissent : notez au moins le nom de l’assureur." } ] } ] },
+    achat: { nom: "Achat d’un bien", d: "Produit défectueux, non conforme, non livré", secs: [
+      { s: "Ce qui fonde la relation", items: [
+        { id: "cmd", t: "Le bon de commande, la facture ou le ticket de caisse", w: 2, kw: /commande|facture|ticket/i, where: "Votre espace client, vos courriels de confirmation.", alt: "Le relevé bancaire prouve au moins le paiement et la date." },
+        { id: "annonce", t: "L’annonce ou la description du produit au moment de l’achat", w: 1, kw: /annonce|descriptif|fiche produit/i, where: "Capture de la page du site, ou de l’annonce.", alt: "Si l’annonce a disparu, recherchez un courriel de confirmation qui reprend les caractéristiques." },
+        { id: "cgv", t: "Les conditions générales de vente", w: 1, kw: /cgv|conditions g[ée]n[ée]rales/i, where: "Sur le site du vendeur, ou au dos du bon de commande.", alt: "Notez la date à laquelle vous les avez consultées." } ] },
+      { s: "Ce qui prouve le paiement et la livraison", items: [
+        { id: "paie", t: "La preuve du paiement", w: 2, kw: /virement|relev[ée]|paiement|ch[eè]que|carte/i, where: "Relevé bancaire, confirmation de paiement.", alt: "Votre banque peut fournir un duplicata." },
+        { id: "livr", t: "Le bon de livraison ou le suivi du colis", w: 1, kw: /livraison|colis|suivi/i, where: "Courriel du transporteur, bon signé.", alt: "Notez la date de réception réelle." } ] },
+      { s: "Ce qui prouve le problème", items: [
+        { id: "photos", t: "Les photos ou vidéos du défaut", w: 2, kw: /photo|vid[ée]o/i, where: "Montrez le défaut et le produit dans son ensemble, avec son numéro de série si possible.", alt: "Prenez-les dès maintenant, avant toute réparation." },
+        { id: "diag", t: "Le diagnostic d’un réparateur", w: 1, kw: /diagnostic|r[ée]parateur|rapport/i, where: "Un professionnel indépendant peut décrire la panne et sa cause probable.", alt: "Un devis de réparation décrit déjà souvent le défaut." } ] } ] },
+    logement: { nom: "Logement en location", d: "Dépôt de garantie, réparations, charges, congé", secs: [
+      { s: "Ce qui fonde la relation", items: [
+        { id: "bail", t: "Le bail signé et ses annexes", w: 2, kw: /bail/i, where: "Votre exemplaire, ou celui de l’agence.", alt: "Demandez-en une copie au bailleur ou à l’agence par écrit." },
+        { id: "edle", t: "L’état des lieux d’entrée", w: 2, kw: /[ée]tat des lieux d.entr/i, where: "Annexé au bail.", alt: "Sans état des lieux d’entrée, des règles de preuve particulières peuvent s’appliquer : demandez conseil." },
+        { id: "edls", t: "L’état des lieux de sortie", w: 1, kw: /[ée]tat des lieux de sortie/i, where: "Remis lors de la restitution des clés.", alt: "À défaut, des photos datées le jour du départ." } ] },
+      { s: "Ce qui prouve les paiements", items: [
+        { id: "quitt", t: "Les quittances ou les relevés de paiement des loyers", w: 2, kw: /quittance|loyer|relev[ée]|virement/i, where: "Espace locataire, relevés bancaires.", alt: "Le bailleur doit transmettre gratuitement une quittance au locataire qui la demande (art. 21 de la loi du 6 juillet 1989) : faites-le par écrit." },
+        { id: "dg", t: "La preuve du versement du dépôt de garantie", w: 1, kw: /d[ée]p[ôo]t de garantie|caution/i, where: "Bail, relevé bancaire de l’entrée dans les lieux.", alt: "Le bail mentionne généralement son montant." } ] },
+      { s: "Ce qui prouve le problème", items: [
+        { id: "photos", t: "Les photos datées des désordres", w: 2, kw: /photo|vid[ée]o/i, where: "Votre téléphone.", alt: "Prenez-les aujourd’hui, pièce par pièce." },
+        { id: "signal", t: "Les signalements écrits adressés à l’autre partie", w: 1, kw: /signalement|courrier|lettre/i, where: "Courriels, lettres recommandées.", alt: "Écrivez-en un maintenant, daté et précis." } ] } ] },
+    voisinage: { nom: "Voisinage", d: "Bruit, plantations, limites, dégâts", secs: [
+      { s: "Le cadre", items: [
+        { id: "titre", t: "Votre titre de propriété ou votre bail", w: 1, kw: /titre de propri|acte de vente|bail/i, where: "Chez vous, ou auprès du notaire.", alt: "Il établit votre qualité pour agir." },
+        { id: "plan", t: "Un plan ou un extrait cadastral, si la limite est en cause", w: 1, kw: /plan|cadastr|bornage/i, where: "Le cadastre est consultable en ligne (cadastre.gouv.fr).", alt: "Le plan cadastral n’établit pas à lui seul la limite exacte : un géomètre peut être nécessaire." } ] },
+      { s: "Ce qui prouve le trouble", items: [
+        { id: "journal", t: "Un journal daté des troubles : jours, heures, durée, nature", w: 2, kw: /journal|relev[ée] des nuisances|chronologie/i, where: "Tenez-le au fil des jours ; La Trame peut vous y aider.", alt: "Commencez aujourd’hui : la régularité convainc plus qu’un seul épisode." },
+        { id: "temoins", t: "Les attestations d’autres voisins", w: 2, kw: /attestation|t[ée]moin|voisin/i, where: "Voisins, visiteurs réguliers.", alt: "Une attestation conforme à l’article 202 du Code de procédure civile : c’est l’objet de l’outil Le Témoin." },
+        { id: "photos", t: "Photos, vidéos ou enregistrements datés", w: 1, kw: /photo|vid[ée]o|enregistrement/i, where: "Votre téléphone.", alt: "Avant d’enregistrer quelqu’un, demandez conseil : l’usage de certains enregistrements est encadré." },
+        { id: "constat", t: "Un constat de commissaire de justice", w: 1, kw: /constat/i, where: "Payant, il donne une description objective et datée.", alt: "Utile si le trouble est répétitif et que l’enjeu le justifie." },
+        { id: "tiers", t: "Les réponses de la mairie, du syndic ou du bailleur", w: 1, kw: /mairie|syndic|bailleur|police/i, where: "Courriers et courriels reçus.", alt: "Une main courante ou un signalement peut aussi garder une trace datée." } ] } ] },
+    service: { nom: "Service ou abonnement", d: "Opérateur, prestataire, banque, énergie", secs: [
+      { s: "Ce qui fonde la relation", items: [
+        { id: "contrat", t: "Le contrat et les conditions générales applicables", w: 2, kw: /contrat|conditions g[ée]n[ée]rales|cgv/i, where: "Espace client, courriel de souscription.", alt: "Demandez la version applicable à la date de souscription." },
+        { id: "resil", t: "La preuve de résiliation, si elle est en cause", w: 1, kw: /r[ée]siliation/i, where: "Courrier, confirmation en ligne.", alt: "Une capture de l’espace client montrant la demande." } ] },
+      { s: "Ce qui prouve les paiements", items: [
+        { id: "fact", t: "Les factures", w: 2, kw: /facture/i, where: "Espace client.", alt: "Le prestataire doit pouvoir vous les fournir." },
+        { id: "paie", t: "Les relevés montrant les prélèvements", w: 2, kw: /relev[ée]|pr[ée]l[èe]vement|virement/i, where: "Votre banque.", alt: "Duplicatas auprès de votre banque." } ] },
+      { s: "Ce qui prouve le problème", items: [
+        { id: "recl", t: "Vos réclamations et leurs numéros de dossier", w: 2, kw: /r[ée]clamation|ticket|dossier n/i, where: "Courriels, captures du service client.", alt: "Notez date, heure et nom de l’interlocuteur de chaque appel." },
+        { id: "mediat", t: "La saisine du médiateur de la consommation, et sa réponse", w: 1, kw: /m[ée]diat/i, where: "Ses coordonnées figurent en principe sur le site ou le contrat du professionnel.", alt: "Ce recours est gratuit pour le consommateur (art. L. 612-1 du Code de la consommation) : à envisager avant le juge." } ] } ] },
+    pret: { nom: "Argent prêté ou dû", d: "Prêt entre particuliers, dette non remboursée", secs: [
+      { s: "Ce qui fonde la dette", items: [
+        { id: "recon", t: "La reconnaissance de dette signée", w: 2, kw: /reconnaissance de dette|contrat de pr[êe]t/i, where: "L’original signé.", alt: "Au-delà de 1 500 €, un écrit est en principe exigé ; une impossibilité morale de l’obtenir, entre proches par exemple, peut être admise. Demandez conseil." },
+        { id: "aveu", t: "Les messages où l’autre reconnaît la dette", w: 2, kw: /sms|courriel|message|reconna/i, where: "SMS, courriels, messageries.", alt: "Un message lui demandant un échéancier peut susciter une réponse écrite." } ] },
+      { s: "Ce qui prouve la remise des fonds", items: [
+        { id: "vir", t: "La preuve du virement ou du chèque", w: 2, kw: /virement|ch[eè]que|relev[ée]/i, where: "Relevés bancaires.", alt: "Un retrait d’espèces seul prouve mal la remise : réunissez les témoins éventuels." },
+        { id: "rembt", t: "Les remboursements déjà reçus", w: 1, kw: /remboursement|re[çc]u/i, where: "Relevés bancaires.", alt: "Ils montrent aussi que l’autre reconnaissait devoir." } ] } ] },
+    sinistre: { nom: "Sinistre et assurance", d: "Refus de garantie, indemnisation insuffisante", secs: [
+      { s: "Ce qui fonde la garantie", items: [
+        { id: "contrat", t: "Le contrat, les conditions générales et particulières", w: 2, kw: /contrat|conditions/i, where: "Espace assuré, courrier de souscription.", alt: "L’assureur doit pouvoir vous les communiquer." },
+        { id: "decl", t: "La déclaration de sinistre et sa preuve d’envoi", w: 2, kw: /d[ée]claration|sinistre/i, where: "Courrier, espace en ligne.", alt: "Une capture datée de la déclaration en ligne." } ] },
+      { s: "Ce qui prouve le dommage", items: [
+        { id: "photos", t: "Les photos du dommage", w: 2, kw: /photo|vid[ée]o/i, where: "Prises le plus tôt possible.", alt: "Ne jetez rien avant le passage de l’expert, si possible." },
+        { id: "factb", t: "Les factures des biens endommagés", w: 1, kw: /facture|ticket/i, where: "Vos archives, relevés bancaires, photos anciennes.", alt: "À défaut, toute preuve de possession et de valeur." },
+        { id: "expert", t: "Le rapport d’expertise", w: 1, kw: /expert|rapport/i, where: "Demandez-en une copie à l’assureur.", alt: "Vous pouvez vous faire assister par votre propre expert." },
+        { id: "rep", t: "Les courriers de l’assureur : refus, offres", w: 2, kw: /refus|offre|assureur/i, where: "Courrier, espace assuré.", alt: "Demandez une réponse écrite et motivée." } ] } ] }
+  };
+
+  function sections(type) { var t = TYPES[type]; if (!t) return []; return [COMMON_START].concat(t.secs, COMMON_END); }
+  function allItems(type) { var out = []; sections(type).forEach(function (s) { s.items.forEach(function (i) { out.push(i); }); }); return out; }
+
+  var st = { type: "", status: {}, from: {}, trame: null, screen: "intro" };
+  function load() { try { var r = localStorage.getItem(KEY); if (r) { var d = JSON.parse(r); if (d && typeof d === "object") st = Object.assign(st, d); } } catch (e) {} st.status = st.status || {}; st.from = st.from || {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function show(name, keep) { ["intro", "type", "list", "sheet"].forEach(function (n) { $("s-" + n).classList.toggle("on", n === name); }); if (!keep) { st.screen = name; save(); } window.scrollTo(0, 0); }
+  function toast(t) { var d = document.createElement("div"); d.className = "toast"; d.setAttribute("role", "status"); d.setAttribute("aria-live", "polite"); d.textContent = t; document.body.appendChild(d); setTimeout(function () { d.remove(); }, 2400); }
+
+  /* ---------- Jauge ---------- */
+  function score() {
+    var items = allItems(st.type), tot = 0, got = 0, essMiss = [];
+    items.forEach(function (i) { tot += i.w; if (st.status[i.id] === "j") got += i.w; else if (i.w === 2) essMiss.push(i); });
+    return { pct: tot ? Math.round(got / tot * 100) : 0, essMiss: essMiss, n: items.length, have: items.filter(function (i) { return st.status[i.id] === "j"; }).length };
+  }
+  function gaugeHTML() {
+    var s = score(), lvl = s.pct >= 75 ? "Dossier solide" : s.pct >= 40 ? "Dossier en construction" : "Dossier fragile";
+    var msg = s.essMiss.length ? s.essMiss.length + " pièce" + (s.essMiss.length > 1 ? "s essentielles manquent ou restent" : " essentielle manque ou reste") + " à confirmer." : "Toutes les pièces essentielles sont réunies.";
+    return '<div class="top2"><strong>' + s.pct + ' %</strong><span class="lvl">' + lvl + '</span></div><div class="track"><i style="width:' + s.pct + '%"></i></div><p>' + s.have + " pièce" + (s.have > 1 ? "s" : "") + " sur " + s.n + " · " + msg + "</p>";
+  }
+
+  /* ---------- Import de la trame ---------- */
+  function applyTrame() {
+    if (!st.trame || !st.type) return 0;
+    var n = 0;
+    allItems(st.type).forEach(function (i) {
+      var hit = st.trame.pieces.filter(function (p) { return i.kw && i.kw.test(p); });
+      if (hit.length && st.status[i.id] !== "j") { st.status[i.id] = "j"; st.from[i.id] = hit.slice(0, 2).join(" ; "); n++; }
+      else if (hit.length) st.from[i.id] = st.from[i.id] || hit.slice(0, 2).join(" ; ");
+    });
+    save(); return n;
+  }
+  function guessType(t) {
+    var txt = (t.titre + " " + t.pieces.join(" ") + " " + t.faits.join(" ")).toLowerCase();
+    if (/devis|chantier|travaux|artisan|cuisine|malfa/.test(txt)) return "travaux";
+    if (/bail|loyer|locat|propri[ée]taire/.test(txt)) return "logement";
+    if (/voisin|bruit|haie|nuisance/.test(txt)) return "voisinage";
+    if (/sinistre|assureur|d[ée]g[âa]t des eaux/.test(txt)) return "sinistre";
+    if (/pr[êe]t|pr[êe]t[ée]|reconnaissance de dette|rembours/.test(txt)) return "pret";
+    if (/abonnement|op[ée]rateur|forfait|r[ée]siliation/.test(txt)) return "service";
+    if (/commande|livraison|colis|produit/.test(txt)) return "achat";
+    return "";
+  }
+  function onFile(f) {
+    var rd = new FileReader();
+    rd.onload = function () {
+      try {
+        var d = JSON.parse(rd.result);
+        if (!d || d.revela !== "trame" || !Array.isArray(d.events)) throw new Error("format");
+        var pcs = d.events.map(function (e) { return String(e.piece || "").slice(0, 300); }).filter(Boolean);
+        var faits = d.events.map(function (e) { return String(e.fait || "").slice(0, 500); });
+        st.trame = { titre: String(d.titre || "").slice(0, 120), pieces: pcs, faits: faits, nb: d.events.length };
+        var g = guessType(st.trame);
+        if (st.type) { var n = applyTrame(); renderList(n); show("list"); }
+        else { save(); renderTypes(g); show("type"); }
+        toast("Trame importée : " + pcs.length + " pièce" + (pcs.length > 1 ? "s" : "") + ".");
+      } catch (e) { toast("Ce fichier n’est pas une trame Révéla."); }
+    };
+    rd.readAsText(f);
+  }
+  $("file").addEventListener("change", function () { var f = this.files && this.files[0]; if (f) onFile(f); this.value = ""; });
+  $("btn-import0").onclick = function () { $("file").click(); };
+  $("btn-import").onclick = function () { $("file").click(); };
+
+  /* ---------- Types ---------- */
+  function renderTypes(guess) {
+    var n = $("imp-note");
+    if (st.trame) { n.hidden = false; n.innerHTML = "Trame « " + esc(st.trame.titre || "sans titre") + " » importée : " + st.trame.nb + " faits, " + st.trame.pieces.length + " pièces." + (guess ? " Elle ressemble à un litige « " + esc(TYPES[guess].nom) + " » : vérifiez ci-dessous." : ""); }
+    else n.hidden = true;
+    $("types").innerHTML = Object.keys(TYPES).map(function (k) { var t = TYPES[k]; return '<button class="type" data-t="' + k + '"' + (k === guess ? ' style="border-color:var(--gold);box-shadow:inset 0 0 0 1px var(--gold)"' : "") + "><strong>" + esc(t.nom) + (k === guess ? " · suggéré" : "") + "</strong><span>" + esc(t.d) + "</span></button>"; }).join("");
+  }
+  $("types").addEventListener("click", function (e) {
+    var b = e.target.closest(".type"); if (!b) return;
+    var t = b.getAttribute("data-t"); if (t !== st.type) { st.status = {}; st.from = {}; } st.type = t;
+    var n = applyTrame(); renderList(n); show("list");
+  });
+  $("btn-start").onclick = function () { renderTypes(st.trame ? guessType(st.trame) : ""); show("type"); };
+  $("btn-type").onclick = function () { renderTypes(st.trame ? guessType(st.trame) : ""); show("type"); };
+  $("type-back").onclick = function () { initIntro(); show("intro"); };
+  $("btn-resume").onclick = function () { renderList(); show("list"); };
+
+  /* ---------- Liste ---------- */
+  var ST = [["j", "Je l’ai"], ["o", "À obtenir"], ["x", "Je ne peux pas l’obtenir"]];
+  function itemHTML(i) {
+    var s = st.status[i.id] || "";
+    return '<div class="pc' + (s === "j" ? " ok" : s === "x" && i.w === 2 ? " miss" : "") + '" id="it-' + i.id + '"><div class="h"><h3>' + esc(i.t) + '</h3><span class="w ' + (i.w === 2 ? "w2" : "w1") + '">' + (i.w === 2 ? "Essentielle" : "Utile") + "</span></div>" +
+      (st.from[i.id] ? '<div class="src">Rattachée depuis votre trame : ' + esc(st.from[i.id]) + "</div>" : "") +
+      '<div class="st" data-id="' + i.id + '">' + ST.map(function (x) { return '<button data-v="' + x[0] + '" aria-pressed="' + (s === x[0]) + '">' + x[1] + "</button>"; }).join("") + "</div>" +
+      "<details><summary>Où la trouver · comment y suppléer</summary><p><strong>Où :</strong> " + esc(i.where) + "</p><p><strong>À défaut :</strong> " + esc(i.alt) + "</p></details></div>";
+  }
+  function renderList(imported) {
+    var t = TYPES[st.type]; if (!t) return;
+    $("list-kicker").textContent = t.nom;
+    $("gauge").innerHTML = gaugeHTML();
+    var r = $("imp-res");
+    if (st.trame) { r.hidden = false; r.textContent = "Votre trame compte " + st.trame.pieces.length + " pièces. " + (typeof imported === "number" ? imported + " ont été rattachées automatiquement. " : "") + "Vérifiez chaque rattachement : l’outil se fonde sur les mots employés."; }
+    else r.hidden = true;
+    $("items").innerHTML = sections(st.type).map(function (s) { return '<p class="sec">' + esc(s.s) + "</p>" + s.items.map(itemHTML).join(""); }).join("");
+  }
+  $("items").addEventListener("click", function (e) {
+    var b = e.target.closest(".st button"); if (!b) return;
+    var id = b.parentNode.getAttribute("data-id"), v = b.getAttribute("data-v");
+    st.status[id] = st.status[id] === v ? "" : v; save();
+    var it = allItems(st.type).filter(function (x) { return x.id === id; })[0];
+    var el = $("it-" + id), tmp = document.createElement("div"); tmp.innerHTML = itemHTML(it);
+    var open = el.querySelector("details").open; el.replaceWith(tmp.firstChild); if (open) $("it-" + id).querySelector("details").open = true;
+    $("gauge").innerHTML = gaugeHTML();
+  });
+
+  /* ---------- Dossier ---------- */
+  function renderSheet() {
+    var t = TYPES[st.type], items = allItems(st.type);
+    $("t-sheet").textContent = "Mon dossier · " + t.nom;
+    $("sh-date").textContent = "Établi le " + new Date().toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" }) + (st.trame && st.trame.titre ? " · trame « " + st.trame.titre + " »" : "") + ".";
+    $("sh-gauge").innerHTML = gaugeHTML();
+    function list(f, fn) { var arr = items.filter(f); return { n: arr.length, h: arr.map(fn).join("") }; }
+    var lab = function (i) { return (i.w === 2 ? "<strong>" : "") + esc(i.t) + (i.w === 2 ? "</strong>" : ""); };
+    var ok = list(function (i) { return st.status[i.id] === "j"; }, function (i) { return "<li>" + lab(i) + (st.from[i.id] ? ' <span class="muted small">(' + esc(st.from[i.id]) + ")</span>" : "") + "</li>"; });
+    var todo = list(function (i) { return st.status[i.id] === "o"; }, function (i) { return "<li>" + lab(i) + '<br><span class="muted small">Où : ' + esc(i.where) + "</span></li>"; });
+    var x = list(function (i) { return st.status[i.id] === "x"; }, function (i) { return "<li>" + lab(i) + '<br><span class="muted small">À défaut : ' + esc(i.alt) + "</span></li>"; });
+    var nr = list(function (i) { return !st.status[i.id]; }, function (i) { return "<li>" + lab(i) + "</li>"; });
+    $("sh-ok").innerHTML = ok.h; $("sh-ok-w").hidden = !ok.n;
+    $("sh-todo").innerHTML = todo.h; $("sh-todo-w").hidden = !todo.n;
+    $("sh-x").innerHTML = x.h; $("sh-x-w").hidden = !x.n;
+    $("sh-nr").innerHTML = nr.h; $("sh-nr-w").hidden = !nr.n;
+    $("sh-law").innerHTML = LAW.map(function (l) { return '<div class="law"><p>' + esc(l[2]) + '</p><a href="' + l[1] + '" target="_blank" rel="noopener">' + esc(l[0]) + ", sur Légifrance</a></div>"; }).join("") + '<p class="small muted" style="margin:10px 0 0">Références vérifiées sur Légifrance le 9 octobre 2026.</p>';
+    var links = [];
+    if (LIENS.sceau) links.push('<a href="' + LIENS.sceau + '">Le Sceau</a> pour préserver une preuve numérique');
+    if (LIENS.temoin) links.push('<a href="' + LIENS.temoin + '">Le Témoin</a> pour une attestation conforme');
+    if (LIENS.preambule) links.push('<a href="' + LIENS.preambule + '">Le Préambule</a> pour préparer un premier rendez-vous');
+    if (LIENS.trame && !st.trame) links.push('<a href="' + LIENS.trame + '">La Trame</a> pour remettre les faits dans l’ordre');
+    $("sh-links").innerHTML = links.length ? "Pour aller plus loin : " + links.join(" · ") + "." : ""; $("sh-links").hidden = !links.length;
+  }
+  $("btn-sheet").onclick = function () { renderSheet(); show("sheet"); };
+  $("btn-back").onclick = function () { renderList(); show("list"); };
+  $("btn-print").onclick = function () { window.print(); };
+  $("btn-erase").onclick = function () { if (!this.dataset.armed) { var self = this; self.dataset.armed = "1"; self.dataset.label = self.textContent; self.textContent = "Cliquez à nouveau pour tout effacer"; setTimeout(function () { if (self.dataset.armed) { delete self.dataset.armed; self.textContent = self.dataset.label; } }, 5000); return; } delete this.dataset.armed; setTimeout(function () { try { localStorage.removeItem(KEY); } catch (e) {} }, 0);
+    
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    st = { type: "", status: {}, from: {}, trame: null, screen: "intro" };
+    initIntro(); show("intro"); this.textContent = "Données effacées";
+  };
+  function initIntro() { $("btn-resume").hidden = !st.type; }
+  function openMentions() { if (location.hash === "#mentions-legales") $("mentions-legales").open = true; }
+  window.addEventListener("hashchange", openMentions);
+
+  window.__faisceau = { TYPES: TYPES, guessType: guessType };
+
+  load(); initIntro(); openMentions();
+  if (st.type && (st.screen === "list" || st.screen === "sheet")) { renderList(); if (st.screen === "sheet") { renderSheet(); show("sheet", true); } else show("list", true); }
+  else show("intro", true);
+})();
+</script>
+</body>
+</html>
